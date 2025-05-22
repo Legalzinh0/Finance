@@ -11,6 +11,13 @@ a {
 a:hover {
     opacity: 0.7;
 }
+.center img{
+    position: relative;
+    width: 49px;
+    height: auto;
+
+}
+
 .logo {
     font-size: 24px;
     text-transform: uppercase;
@@ -21,11 +28,12 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #0D0D0D;
+    background: black;
     height: 8vh ;
 }
 main {
-    background:#0d0f13;
+    
+    background: linear-gradient(to bottom, #232220, #000000);
     background-size: cover;
     height: 92vh;
 }
