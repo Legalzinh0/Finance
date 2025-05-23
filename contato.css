@@ -7,12 +7,12 @@
     box-sizing: border-box;
   }
   body {
-    font-family: Arial, sans-serif;
+   
     background: linear-gradient(to bottom, #0d0f13, #1a1a1a);
     color: #fff;
     min-height: 100vh;
     overflow-x: hidden;
-    padding: 40px 20px;
+
   }
   a {
     color: #C8A349;
@@ -41,8 +41,8 @@
     justify-content: space-around;
     align-items: center;
     background: black;
-    height: 8vh;
-  }
+    height: 8vh ;
+}
   .nav-list {
     list-style: none;
     display: flex;
@@ -113,7 +113,7 @@
     background: linear-gradient(to bottom, #232220, #000000);
     background-size: cover;
     height: 92vh;
-    padding-top: 120px;
+    padding-top: 50px;
 
   }
   
@@ -121,7 +121,7 @@
   .contact-container {
     display: flex;
     flex-wrap: wrap;
-    background: #0d0d0d;
+    background: #0d0f13;
     border-radius: 12px;
     max-width: 1000px;
     width: 100%;
@@ -134,6 +134,7 @@
   .contact-image {
     flex: 1 1 300px;
     background: #0d0f13;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,6 +143,7 @@
   .contact-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 12px;
   }
   
   /* Lado do formulário */
@@ -158,6 +160,7 @@
     color: #C8A349;
   }
   .contact-form p {
+    font-family: Arial, sans-serif;
     margin-bottom: 30px;
     color: #ccc;
   }
@@ -179,8 +182,10 @@
     min-height: 120px;
     resize: vertical;
   }
-  .contact-form button {
-    background: #C8A349;
+
+.contact-form button{
+    background:#C8A349;
     color: #0d0d0d;
     font-weight: bold
-} 
+  
+}
