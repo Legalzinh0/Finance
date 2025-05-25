@@ -83,6 +83,7 @@ main {
 .hero-image img{
     max-width: 450px;
     width: 100%;
+    box-shadow: 0 0 15px rgba(200, 163, 73, 0.2);
     background-color:transparent;
     height: auto;
     border-radius: 12px;
