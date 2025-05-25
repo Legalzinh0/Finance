@@ -136,7 +136,7 @@
   /* Lado da imagem */
   .contact-image {
     flex: 1 1 300px;
-    background: #0d0f13;
+    background-color:transparent;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -144,6 +144,7 @@
     padding: 20px;
   }
   .contact-image img {
+    background-color:transparent;
     max-width: 100%;
     height: auto;
     border-radius: 12px;
@@ -162,6 +163,18 @@
     margin-bottom: 10px;
     color: #C8A349;
   }
+  .btn-cta{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #C8A349;
+    color: #0d0d0d;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn-cta:hover{
+    background: #b28d3f;
+}
   .contact-form p {
     font-family: Arial, sans-serif;
     margin-bottom: 30px;
@@ -186,9 +199,5 @@
     resize: vertical;
   }
 
-.contact-form button{
-    background:#C8A349;
-    color: #0d0d0d;
-    font-weight: bold
+
   
-}

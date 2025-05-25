@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 a {
     color:#C8A349;
     text-decoration: none;
@@ -28,14 +30,14 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: black;
+    background: rgb(0, 0, 0);
     height: 8vh ;
 }
 main {
-    
+    color:#fff;
     background: linear-gradient(to bottom, #232220, #000000);
     background-size: cover;
-    height: 92vh;
+    height: 100vh;
 }
 .nav-list{
     list-style: none;
@@ -45,6 +47,53 @@ main {
     letter-spacing: 3px;
     margin-left: 32px;
 }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 10%;
+    min-height: 80vh;
+    flex-wrap: wrap;
+}
+.hero-text{
+    max-width: 500px;
+}
+.hero-text h1 {
+    
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #C8A349;
+}
+.hero-text p{
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 30px;    
+}
+.btn-cta{
+    background: #C8A349;
+    color: #000000;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn-cta:hover{
+    background: #b28d3f;
+}
+.hero-image img{
+    max-width: 450px;
+    width: 100%;
+    background-color:transparent;
+    height: auto;
+    border-radius: 12px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0D0D0D;
+    color: #999;
+}
+
 .mobile-menu {
     display: none;
     cursor: pointer;
@@ -56,9 +105,19 @@ main {
    background: #fff;
    margin: 8px; 
 }
+/*Responsivo*/
 @media (max-width: 999px){
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-image{
+        margin-top: 30px;
+    }
+
 body {
     overflow-x: hidden;
+
     }
     .nav-list {
         position: absolute;
